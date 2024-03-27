@@ -915,7 +915,7 @@ h4 {
 
   .image-container-presentaciones {
     width          : 100%;
-    height         : 100%;
+    height         : 0;
     overflow       : hidden;
     position       : relative;
     /* padding-bottom : 26.25%; */
