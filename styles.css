@@ -913,20 +913,33 @@ h4 {
    margin: 0 auto;*/ 
   }
 
-  .image-container-presentaciones {
-    width          : 100%; 
-    height         : 0;
-    overflow       : hidden;
-    padding-bottom : 40%;  
-    position       : relative;
       
-
-    /* position   : absolute; 
-    position       : relative;
-  top        : 0;
-  left       : 0;
-  width      : 100%;
-  height     : 100%;
-  object-fit : cover;*/
+  
+  .image-container-presentaciones  {
+    width: 400px; /* Ancho del contenedor */
+    height: 300px; /* Alto del contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor, puedes personalizarlo */
+    overflow: hidden; /* Oculta el contenido que se desborda del contenedor */
+    position: relative; /* Establece la posición relativa para que puedas posicionar elementos internos */
+    padding-bottom : 40%;
   }
-
+  /* este quedo presentacion ASESORIA LEGAL y juridica*/
+  .image-container-presentaciones  img {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Hace que la imagen se muestre como un bloque */
+    position: absolute; /* Establece la posición absoluta para poder superponer elementos si es necesario */
+    top: 0; /* Posiciona la imagen en la parte superior del contenedor */
+    left: 0; /* Posiciona la imagen en la parte izquierda del contenedor */
+   
+  }
+  /* este quedo presentacion GESTION VEHICULAR*/
+  .image-container-2 img {
+    position   : absolute;
+    top        : 0;
+    left       : 0;
+    width      : 100%;
+    height     : 100%; 
+    /* height: auto; */
+    object-fit : cover;
+  }
